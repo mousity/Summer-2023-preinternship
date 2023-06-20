@@ -66,3 +66,7 @@ const jobs = [
     postDate: "6 days ago",
   },
 ];
+
+for(let i = 0; i < jobs.length; i++) {
+  console.log(jobs[i].title);
+}
